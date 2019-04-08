@@ -21,16 +21,15 @@ def get_test_data(path, sheetname):
             for c in range(0, 13, 2):
                 user['name'].append(sheet.cell_value(r, c))
                 user['username'].append(sheet.cell_value(r, c + 1))
-            user['reason'] = sheet.cell_value(r, 14)
-            user['start_time'] = sheet.cell_value(r, 15)
+            user['start_time'] = sheet.cell_value(r, 14)
             data.append(user)
         return data
     else:
         return 0
 
 # path = os.path.join(os.path.dirname(os.getcwd()), 'HRMS.xlsx')
-path = os.path.join(os.getcwd(), "testData\\HRMS.xlsx")
-sheetname = '签卡'
+path = os.path.join(os.path.dirname(os.getcwd()), "testData\\HRMS.xlsx")
+sheetname = '离职'
 
 @ddt.ddt
 class TestSign(unittest.TestCase):
@@ -45,7 +44,6 @@ class TestSign(unittest.TestCase):
         # 把已读取的数据信息赋值给变量
         name = user['name']
         username = user['username']
-        reason = str(user['reason'])
         start_time = str(user['start_time'])
 
         # 初始化
@@ -60,7 +58,7 @@ class TestSign(unittest.TestCase):
             if not flag:
                 print("申请人：", username[n], name[n])
                 apply_test.shadow_click()
-                apply_test.apply_sign(start_time, reason)
+                apply_test.apply_dismission(start_time)
                 apply_test.next_processer(name[n + 1])
                 apply_test.logout()
                 flag += 1

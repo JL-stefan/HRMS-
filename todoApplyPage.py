@@ -31,6 +31,13 @@ class TodoApplyPage(BasePage):
     overtime_reason = (By.XPATH, '//textarea[@placeholder="请输入加班工作内容"]')
     overtime_commit = (By.XPATH, '//button/span[text()="提 交 "]')
 
+    # 签卡流程元素
+    sign_btn = (By.XPATH, '//img[@title="签卡"]')
+    sign_date = (By.XPATH, '//input[@placeholder="请选择未刷卡时间"]')
+    sure_date_btn = (By.XPATH, '/html/body/div[2]/div[2]/button[2]')
+    sign_reason = (By.XPATH, '//textarea[@placeholder="请说明未刷卡的原因"]')
+    commit_btn = (By.XPATH, '//button/span[text()="提 交 "]')
+
     # 出差流程元素,开始时间,结束时间跟请假流程元素一样
     business_btn = (By.XPATH, '//img[@title="出差"]')
     close_business_date = (By.XPATH, '//label[text()="出差地点"]')
@@ -47,17 +54,21 @@ class TodoApplyPage(BasePage):
     target_content = (By.XPATH, '//textarea[@placeholder="个人希望在公司的发展趋势及工作目标"]')
     full_commit = (By.XPATH, '//button/span[text()="提交"]')
 
-    # 签卡流程元素
-    sign_btn = (By.XPATH, '//img[@title="签卡"]')
-    sign_date = (By.XPATH, '//input[@placeholder="请选择未刷卡时间"]')
-    sure_date_btn = (By.XPATH, '/html/body/div[2]/div[2]/button[2]')
-    sign_reason = (By.XPATH, '//textarea[@placeholder="请说明未刷卡的原因"]')
-    commit_btn = (By.XPATH, '//button/span[text()="提 交 "]')
+    # 离职流程元素
+    dismission_btn = (By.XPATH, '//img[@title="离职"]')
+    company_reason = (By.XPATH, '//div[@class="dimission-panel__reason"]/div[2]/div[2]/div[4]')
+    self_reason = (By.XPATH, '//div[@class="dimission-panel__reason"]/div[3]/div[2]/div[2]')
+    dismission_time = (By.XPATH, '//input[@placeholder="期望离职时间"]')
+    dismission_commit = (By.XPATH, '//button/span[text()="提交"]')
+
 
     # 处理流程元素
     process_btn = (By.XPATH, '//table/tbody/tr[1]/td[6]/div/span')
     agree_btn = (By.XPATH, '//div[@class="action-group"]/button')
     ok_btn = (By.XPATH, '//footer/div/button[1]')
+
+    process_before_url=''
+    process_after_url=''
 
     def __init__(self, driver, timeout=20, url='https://hr-test.xiaojiaoyu100.com/flow/todoApply'):
         super().__init__(driver, timeout, url)
@@ -146,6 +157,15 @@ class TodoApplyPage(BasePage):
         self.find_element(*self.business_commit).click()
 
 
+    # 离职申请流程
+    def apply_dismission(self, dismission_time):
+        self.find_element(*self.apply_btn).click()
+        self.find_element(*self.dismission_btn).click()
+        self.find_element(*self.company_reason).click()
+        self.find_element(*self.self_reason).click()
+        self.find_element(*self.dismission_time).send_keys(dismission_time)
+        self.find_element(*self.dismission_commit).click()
+
     # 选择下一个审核人流程
     def next_processer(self, name):
         # 定位审核人userid所在的元素input的祖父元素labek
@@ -169,7 +189,13 @@ class TodoApplyPage(BasePage):
     def process(self):
         self.find_element(*self.process_btn).click()
         self.move_to_foot()
+        process_before_url = self.driver.current_url
         self.find_element(*self.agree_btn).click()
+        process_after_url = self.driver.current_url
+        return process_before_url == process_after_url
+
+    # def is_same_url(self):
+    #     return self.process.
 
     # 判断是否有下一审批人
     def is_next_processer_exist(self):
@@ -193,6 +219,9 @@ class TodoApplyPage(BasePage):
             else:
                 print("Failed：缺少下一审批人的数据")
                 return -1
+        elif self.process():
+            print("处理前后url相同，页面可能存在必填项未填写")
+            return -1
         elif processer_name:
             print("Warning：存在审批人"+processer_name+"数据冗余")
             return -1
