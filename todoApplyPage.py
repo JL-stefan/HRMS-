@@ -58,8 +58,15 @@ class TodoApplyPage(BasePage):
     dismission_btn = (By.XPATH, '//img[@title="离职"]')
     company_reason = (By.XPATH, '//div[@class="dimission-panel__reason"]/div[2]/div[2]/div[4]')
     self_reason = (By.XPATH, '//div[@class="dimission-panel__reason"]/div[3]/div[2]/div[2]')
-    dismission_time = (By.XPATH, '//input[@placeholder="期望离职时间"]')
+    expected_time = (By.XPATH, '//input[@placeholder="期望离职时间"]')
     dismission_commit = (By.XPATH, '//button/span[text()="提交"]')
+    estimated_time = (By.XPATH, '//input[@placeholder="预计离职日期"]')
+
+    # 离职结算流程元素
+    dismissionCheckout_btn = (By.XPATH, '//img[@title="离职结算"]')
+    work_handover = (By.XPATH, '//textarea[@placeholder="请说明工作交接情况"]')
+    dismissionCheckout_commit = (By.XPATH, '//button/span[text()="提交 "]')
+    real_time = (By.XPATH, '//input[@placeholder="实际离职时间"]')
 
 
     # 处理流程元素
@@ -67,6 +74,7 @@ class TodoApplyPage(BasePage):
     agree_btn = (By.XPATH, '//div[@class="action-group"]/button')
     ok_btn = (By.XPATH, '//footer/div/button[1]')
 
+    # 处理时和处理后url
     process_before_url=''
     process_after_url=''
 
@@ -163,8 +171,15 @@ class TodoApplyPage(BasePage):
         self.find_element(*self.dismission_btn).click()
         self.find_element(*self.company_reason).click()
         self.find_element(*self.self_reason).click()
-        self.find_element(*self.dismission_time).send_keys(dismission_time)
+        self.find_element(*self.expected_time).send_keys(dismission_time)
         self.find_element(*self.dismission_commit).click()
+
+    # 离职结算申请流程
+    def apply_dismissionCheckout(self, reason):
+        self.find_element(*self.apply_btn).click()
+        self.find_element(*self.dismissionCheckout_btn).click()
+        self.find_element(*self.work_handover).send_keys(reason)
+        self.find_element(*self.dismissionCheckout_commit).click()
 
     # 选择下一个审核人流程
     def next_processer(self, name):
@@ -187,15 +202,50 @@ class TodoApplyPage(BasePage):
 
     # 审核人处理流程
     def process(self):
+        global process_before_url
+        global process_after_url
         self.find_element(*self.process_btn).click()
         self.move_to_foot()
         process_before_url = self.driver.current_url
+        print("审核时url:%s" % process_before_url)
         self.find_element(*self.agree_btn).click()
+        sleep(1)
         process_after_url = self.driver.current_url
-        return process_before_url == process_after_url
+        print("同意后url:%s" % process_after_url)
 
-    # def is_same_url(self):
-    #     return self.process.
+    # 离职流程审核人处理流程
+    def dismission_process(self, dismission_time):
+        global process_before_url
+        global process_after_url
+        self.find_element(*self.process_btn).click()
+        self.move_to_foot()
+        try:
+            # 判断页面是否有预计离职时间元素
+            # estimated_time = self.find_element(*self.estimated_time)
+            estimated_time = self.driver.find_element(By.XPATH, '//input[@placeholder="预计离职日期"]')
+        except:
+            pass
+        else:
+            estimated_time.send_keys(dismission_time)
+        try:
+            # 判断页面是否有实际离职时间元素
+            # real_time = self.find_element(*self.real_time)
+            real_time = self.driver.find_element(By.XPATH, '//input[@placeholder="实际离职时间"]')
+        except:
+            pass
+        else:
+            real_time.send_keys(dismission_time)
+        process_before_url = self.driver.current_url
+        print("审核时url:%s"%process_before_url)
+        self.find_element(*self.agree_btn).click()
+        sleep(1)
+        process_after_url = self.driver.current_url
+        print("同意后url:%s" % process_after_url)
+
+    def is_same_url(self):
+        global process_before_url
+        global process_after_url
+        return process_before_url == process_after_url
 
     # 判断是否有下一审批人
     def is_next_processer_exist(self):
@@ -205,26 +255,49 @@ class TodoApplyPage(BasePage):
         except:
             return False
 
-    # 判断是否需要下一审批（是否有下一审批选择界面）
+    # # 针对请假/加班/签卡/出差判断是否需要下一审批（是否有下一审批选择界面）
+    # def is_need_next_process(self, processer_name=''):
+    #     if self.is_next_processer_exist():
+    #         if processer_name:
+    #             try:
+    #                 self.next_processer(processer_name)
+    #             except:
+    #                 print("Failed：审批人"+processer_name+"找不到")
+    #                 return -1
+    #             self.logout()
+    #             sleep(1)
+    #         else:
+    #             print("Failed：缺少下一审批人的数据")
+    #             return -1
+    #     elif processer_name:
+    #         print("Warning：存在审批人"+processer_name+"数据冗余")
+    #         return -1
+    #     else:
+    #         print("Passed：审批流程结束")
+    #         return 1
+
+    # 针对离职流程判断是否需要下一审批
     def is_need_next_process(self, processer_name=''):
-        if self.is_next_processer_exist():
-            if processer_name:
-                try:
-                    self.next_processer(processer_name)
-                except:
-                    print("Failed：审批人"+processer_name+"找不到")
+        if self.is_same_url():
+            if self.is_next_processer_exist():
+                if processer_name:
+                    try:
+                        self.next_processer(processer_name)
+                    except:
+                        print("Failed：审批人"+processer_name+"找不到")
+                        return -1
+                    self.logout()
+                    sleep(1)
+                else:
+                    print("Failed：缺少下一审批人的数据")
                     return -1
-                self.logout()
-                sleep(1)
             else:
-                print("Failed：缺少下一审批人的数据")
+                print("Failed:页面存在信息未正确填写")
                 return -1
-        elif self.process():
-            print("处理前后url相同，页面可能存在必填项未填写")
-            return -1
         elif processer_name:
             print("Warning：存在审批人"+processer_name+"数据冗余")
             return -1
         else:
             print("Passed：审批流程结束")
             return 1
+

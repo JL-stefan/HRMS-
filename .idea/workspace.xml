@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48c9fca6-bea3-4a12-b558-b376a33d97a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/HRMS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HRMS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old2/test_dismissionCheckout_new2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/old2/test_dismission_new2.py" beforeDir="false" afterPath="$PROJECT_DIR$/old2/test_dismission_new2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testData/HRMS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testData/HRMS.xlsx" afterDir="false" />
@@ -50,10 +49,12 @@
     <SUITE FILE_PATH="coverage/HRMS$Unittests_for_test_business_new_TestLeave_test_overtime.coverage" NAME="Unittests for test_business_new.TestLeave.test_overtime Coverage Results" MODIFIED="1554099153369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_for_test_sign_TestSign_test_sign.coverage" NAME="Unittests for test_sign.TestSign.test_sign Coverage Results" MODIFIED="1553767961731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS_$todoApplyPage.coverage" NAME="todoApplyPage Coverage Results" MODIFIED="1554718539549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HRMS_$Unittests_in_test_dismission_new2_py.coverage" NAME="Unittests in test_dismission_new2.py Coverage Results" MODIFIED="1554720470625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old2" />
+    <SUITE FILE_PATH="coverage/HRMS_$Unittests_in_test_dismission_new2_py.coverage" NAME="Unittests in test_dismission_new2.py Coverage Results" MODIFIED="1554802437383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old2" />
+    <SUITE FILE_PATH="coverage/HRMS_$Unittests_in_test_all_py.coverage" NAME="Unittests in test_all.py Coverage Results" MODIFIED="1554804029057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_sign_new_py.coverage" NAME="Unittests in test_sign_new.py Coverage Results" MODIFIED="1554087876775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_sign_new1_1_py.coverage" NAME="Unittests in test_sign_new2.py Coverage Results" MODIFIED="1554089406220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_leave_py.coverage" NAME="Unittests in test_leave.py Coverage Results" MODIFIED="1554018132935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HRMS_$Unittests_in_test_dismissionCheckout_new2_py.coverage" NAME="Unittests in test_dismissionCheckout_new2.py Coverage Results" MODIFIED="1554802495677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old2" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_sign_py.coverage" NAME="Unittests in test_sign.py Coverage Results" MODIFIED="1553768002866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$test.coverage" NAME="test Coverage Results" MODIFIED="1553740114006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_business_py.coverage" NAME="Unittests in test_business.py Coverage Results" MODIFIED="1553883802253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -195,30 +196,30 @@
     <session id="851968930">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="817" />
+          <entry key="py" value="1965" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="817" />
+          <entry key="Python" value="1965" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="4" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="4" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -226,23 +227,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basePage.py">
+        <entry file="file://$PROJECT_DIR$/todoApplyPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="517">
+              <caret line="279" column="20" selection-start-line="279" selection-start-column="20" selection-end-line="279" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1554803891400" expanded="true" signature="3131:3138" ph="..." />
+                <marker date="1554803891400" expanded="true" signature="7652:7790" ph="..." />
+                <marker date="1554803891400" expanded="true" signature="8938:8944" ph="..." />
+                <marker date="1554803891400" expanded="true" signature="10123:10184" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/todoApplyPage.py">
+        <entry file="file://$PROJECT_DIR$/testCase/test_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="201" column="12" lean-forward="true" selection-start-line="201" selection-start-column="12" selection-end-line="201" selection-end-column="12" />
+            <state relative-caret-position="1015">
+              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
               <folding>
-                <element signature="e#0#9#0" expanded="true" />
-                <marker date="1554720296617" expanded="true" signature="2781:2788" ph="..." />
-                <marker date="1554720296617" expanded="true" signature="8168:8205" ph="..." />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -251,8 +257,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/old2/test_dismission_new2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+            <state relative-caret-position="479">
+              <caret line="68" column="57" lean-forward="true" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old2/test_dismissionCheckout_new2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="745">
+              <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -305,8 +320,9 @@
         <option value="$PROJECT_DIR$/testCase/test_overtime_new2.py" />
         <option value="$PROJECT_DIR$/old2/test_sign_new2.py" />
         <option value="$PROJECT_DIR$/testCase/test_all.py" />
-        <option value="$PROJECT_DIR$/old2/test_dismission_new2.py" />
         <option value="$PROJECT_DIR$/todoApplyPage.py" />
+        <option value="$PROJECT_DIR$/old2/test_dismission_new2.py" />
+        <option value="$PROJECT_DIR$/old2/test_dismissionCheckout_new2.py" />
       </list>
     </option>
   </component>
@@ -317,10 +333,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="828" />
-    <option name="y" value="83" />
-    <option name="width" value="852" />
-    <option name="height" value="742" />
+    <option name="x" value="998" />
+    <option name="width" value="916" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -330,7 +345,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -357,6 +371,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -367,19 +382,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\HRMS-\old2" />
-      <recent name="E:\workspace\HRMS" />
-      <recent name="E:\workspace\HRMS\data" />
-      <recent name="F:\pythonSoftware\workspace\HRMS" />
-      <recent name="C:\Users\Administrator\PycharmProjects\HRMS" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\HRMS-\old2" />
       <recent name="E:\workspace\HRMS-\testCase" />
       <recent name="F:\pythonSoftware\HRMS\old2" />
       <recent name="E:\workspace\HRMS\testCase" />
       <recent name="E:\workspace\HRMS\testData" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\HRMS-\old2" />
+      <recent name="E:\workspace\HRMS" />
+      <recent name="E:\workspace\HRMS\data" />
+      <recent name="F:\pythonSoftware\workspace\HRMS" />
+      <recent name="C:\Users\Administrator\PycharmProjects\HRMS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -394,7 +409,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_dismission_new2.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_all.py">
     <configuration name="todoApplyPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HRMS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -462,6 +477,21 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_dismissionCheckout_new2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HRMS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/old2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/old2/test_dismissionCheckout_new2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test_dismission_new2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HRMS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -474,21 +504,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/old2/test_dismission_new2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_overtime_new2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="HRMS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/old2/test_overtime_new2.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -512,18 +527,18 @@
       <item itemvalue="Python tests.Unittests in E:/workspace/HRMS-/test_busin.py" />
       <item itemvalue="Python tests.Unittests in test_sign.py" />
       <item itemvalue="Python tests.Unittests in test_business_new2.py" />
-      <item itemvalue="Python tests.Unittests in test_overtime_new2.py" />
       <item itemvalue="Python tests.Unittests in test_all.py" />
       <item itemvalue="Python tests.Unittests in test_dismission_new2.py" />
       <item itemvalue="Python.todoApplyPage" />
+      <item itemvalue="Python tests.Unittests in test_dismissionCheckout_new2.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_all.py" />
+        <item itemvalue="Python tests.Unittests in test_dismissionCheckout_new2.py" />
         <item itemvalue="Python tests.Unittests in test_dismission_new2.py" />
         <item itemvalue="Python.todoApplyPage" />
-        <item itemvalue="Python tests.Unittests in test_all.py" />
         <item itemvalue="Python tests.Unittests in test_business_new2.py" />
-        <item itemvalue="Python tests.Unittests in test_overtime_new2.py" />
       </list>
     </recent_temporary>
   </component>
@@ -541,35 +556,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.08 at 18h 04m 15s.xml">
+    <history-entry file="Unittests_in_test_dismissionCheckout_new2_py - 2019.04.09 at 16h 51m 21s.xml">
+      <configuration name="Unittests in test_dismissionCheckout_new2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.09 at 17h 07m 41s.xml">
       <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.08 at 18h 05m 05s.xml">
+    <history-entry file="Unittests_in_test_dismissionCheckout_new2_py - 2019.04.09 at 17h 08m 35s.xml">
+      <configuration name="Unittests in test_dismissionCheckout_new2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.09 at 17h 30m 53s.xml">
       <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.08 at 18h 05m 31s.xml">
+    <history-entry file="Unittests_in_test_dismissionCheckout_new2_py - 2019.04.09 at 17h 31m 34s.xml">
+      <configuration name="Unittests in test_dismissionCheckout_new2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_dismissionCheckout_new2_py - 2019.04.09 at 17h 32m 26s.xml">
+      <configuration name="Unittests in test_dismissionCheckout_new2.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.09 at 17h 34m 40s.xml">
       <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.08 at 18h 06m 05s.xml">
-      <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_dismissionCheckout_new2_py - 2019.04.09 at 17h 35m 38s.xml">
+      <configuration name="Unittests in test_dismissionCheckout_new2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.08 at 18h 06m 52s.xml">
-      <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_py - 2019.04.09 at 17h 59m 35s.xml">
+      <configuration name="Unittests in test_all.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.08 at 18h 14m 41s.xml">
-      <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.08 at 18h 16m 28s.xml">
-      <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.08 at 18h 17m 43s.xml">
-      <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.08 at 18h 46m 42s.xml">
-      <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.08 at 18h 48m 43s.xml">
-      <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_py - 2019.04.09 at 18h 01m 47s.xml">
+      <configuration name="Unittests in test_all.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -582,15 +597,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.119936034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12100213" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1583514" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21691974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -682,23 +696,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/test_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1976">
-          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old2/test_business_new2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
           <caret line="93" column="35" selection-start-line="93" selection-start-column="35" selection-end-line="93" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,9 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -716,9 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1672">
           <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -726,9 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1444">
           <caret line="84" selection-start-line="84" selection-end-line="92" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,35 +728,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basePage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old2/test_dismissionCheckout_new2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="745">
+          <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todoApplyPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="201" column="12" lean-forward="true" selection-start-line="201" selection-start-column="12" selection-end-line="201" selection-end-column="12" />
+        <state relative-caret-position="517">
+          <caret line="279" column="20" selection-start-line="279" selection-start-column="20" selection-end-line="279" selection-end-column="20" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1554720296617" expanded="true" signature="2781:2788" ph="..." />
-            <marker date="1554720296617" expanded="true" signature="8168:8205" ph="..." />
+            <marker date="1554803891400" expanded="true" signature="3131:3138" ph="..." />
+            <marker date="1554803891400" expanded="true" signature="7652:7790" ph="..." />
+            <marker date="1554803891400" expanded="true" signature="8938:8944" ph="..." />
+            <marker date="1554803891400" expanded="true" signature="10123:10184" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/test_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/old2/test_dismission_new2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+        <state relative-caret-position="479">
+          <caret line="68" column="57" lean-forward="true" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
         </state>
       </provider>
     </entry>

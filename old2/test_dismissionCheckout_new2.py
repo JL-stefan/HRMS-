@@ -21,7 +21,8 @@ def get_test_data(path, sheetname):
             for c in range(0, 13, 2):
                 user['name'].append(sheet.cell_value(r, c))
                 user['username'].append(sheet.cell_value(r, c + 1))
-            user['start_time'] = sheet.cell_value(r, 14)
+            user['reason'] = sheet.cell_value(r, 14)
+            user['dismission_time'] = sheet.cell_value(r, 15)
             data.append(user)
         return data
     else:
@@ -29,7 +30,7 @@ def get_test_data(path, sheetname):
 
 # path = os.path.join(os.path.dirname(os.getcwd()), 'HRMS.xlsx')
 path = os.path.join(os.path.dirname(os.getcwd()), "testData\\HRMS.xlsx")
-sheetname = '离职'
+sheetname = '离职结算'
 
 @ddt.ddt
 class TestSign(unittest.TestCase):
@@ -44,7 +45,8 @@ class TestSign(unittest.TestCase):
         # 把已读取的数据信息赋值给变量
         name = user['name']
         username = user['username']
-        start_time = str(user['start_time'])
+        reason = str(user['reason'])
+        dismission_time = str(user['dismission_time'])
 
         # 初始化
         login_test = LoginPage(self.driver)
@@ -58,7 +60,7 @@ class TestSign(unittest.TestCase):
             if not flag:
                 print("申请人：", username[n], name[n])
                 apply_test.shadow_click()
-                apply_test.apply_dismission(start_time)
+                apply_test.apply_dismissionCheckout(reason)
                 apply_test.next_processer(name[n + 1])
                 apply_test.logout()
                 flag += 1
@@ -66,7 +68,7 @@ class TestSign(unittest.TestCase):
                 # 审批流程
             else:
                 print("审批人" + str(n) + "：", username[n], name[n])
-                apply_test.dismission_process(start_time)
+                apply_test.dismission_process(dismission_time)
                 # 判断是否需要下一审批（是否有下一审批选择界面）
                 result = apply_test.is_need_next_process(name[n + 1])
                 self.assertTrue(result != -1, "测试不通过")
