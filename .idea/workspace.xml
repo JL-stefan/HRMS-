@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48c9fca6-bea3-4a12-b558-b376a33d97a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/old2/test_dismissionCheckout_new2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old1/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/test_all_new.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testCase/test_all_new2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/old2/test_dismission_new2.py" beforeDir="false" afterPath="$PROJECT_DIR$/old2/test_dismission_new2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/basePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testCase/test_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/test_all.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testData/HRMS.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testData/HRMS.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todoApplyPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoApplyPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HRMS/.idea/HRMS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS/.idea/HRMS.iml" afterDir="false" />
@@ -26,6 +29,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/HRMS$Unittests_for_testPage_TestLoginPage_test_login_page.coverage" NAME="Unittests for testPage.TestLoginPage.test_login_page Coverage Results" MODIFIED="1553741870254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HRMS_$Unittests_for_test_all_new_TestAll.coverage" NAME="Unittests for test_all_new.TestAll Coverage Results" MODIFIED="1554883149475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_for_testPage_TestLoginPage_test_3_sec_process.coverage" NAME="Unittests for testPage.TestLoginPage.test_3_sec_process Coverage Results" MODIFIED="1553754138733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_sign_new2_py.coverage" NAME="Unittests in test_sign_new2.py Coverage Results" MODIFIED="1554104655447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_leave_new_py.coverage" NAME="Unittests in test_leave_new.py Coverage Results" MODIFIED="1553949411048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -33,6 +37,7 @@
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_business_new3_py.coverage" NAME="Unittests in test_business_new3.py Coverage Results" MODIFIED="1554102577642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_for_test_business_need_plane_new_TestLeave_test_overtime.coverage" NAME="Unittests for test_business_need_plane_new.TestLeave.test_overtime Coverage Results" MODIFIED="1554096300568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_business_need_plane_new_py.coverage" NAME="Unittests in test_business_need_plane_new.py Coverage Results" MODIFIED="1554096536411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HRMS_$Unittests_in_test_all_new2_py.coverage" NAME="Unittests in test_all_new2.py Coverage Results" MODIFIED="1554893650092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_overtime_new_py.coverage" NAME="Unittests in test_overtime_new.py Coverage Results" MODIFIED="1553950230461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_testPage_py.coverage" NAME="Unittests in testPage.py Coverage Results" MODIFIED="1553756833106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_for_testPage_TestLoginPage_test_process.coverage" NAME="Unittests for testPage.TestLoginPage.test_process Coverage Results" MODIFIED="1553750873765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -40,6 +45,7 @@
     <SUITE FILE_PATH="coverage/HRMS$todoApplyPage.coverage" NAME="todoApplyPage Coverage Results" MODIFIED="1553742906125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_for_testPage_TestLoginPage.coverage" NAME="Unittests for testPage.TestLoginPage Coverage Results" MODIFIED="1553750914823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_business_new_py.coverage" NAME="Unittests in test_business_new.py Coverage Results" MODIFIED="1554101280657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HRMS_$test.coverage" NAME="test Coverage Results" MODIFIED="1554877263194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old1" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_overtime_new2_py.coverage" NAME="Unittests in test_overtime_new2.py Coverage Results" MODIFIED="1554113502399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_testPage2_py.coverage" NAME="Unittests in testSign.py Coverage Results" MODIFIED="1553765447568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_for_testPage_TestLoginPage_test_sec_process.coverage" NAME="Unittests for testPage.TestLoginPage.test_sec_process Coverage Results" MODIFIED="1553753972122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -48,9 +54,10 @@
     <SUITE FILE_PATH="coverage/HRMS$Unittests_for_test_sign_new_TestSign_test_sign.coverage" NAME="Unittests for test_sign_new.TestSign.test_sign Coverage Results" MODIFIED="1554086673364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_for_test_business_new_TestLeave_test_overtime.coverage" NAME="Unittests for test_business_new.TestLeave.test_overtime Coverage Results" MODIFIED="1554099153369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_for_test_sign_TestSign_test_sign.coverage" NAME="Unittests for test_sign.TestSign.test_sign Coverage Results" MODIFIED="1553767961731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/HRMS_$todoApplyPage.coverage" NAME="todoApplyPage Coverage Results" MODIFIED="1554718539549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS_$Unittests_in_test_dismission_new2_py.coverage" NAME="Unittests in test_dismission_new2.py Coverage Results" MODIFIED="1554802437383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/old2" />
-    <SUITE FILE_PATH="coverage/HRMS_$Unittests_in_test_all_py.coverage" NAME="Unittests in test_all.py Coverage Results" MODIFIED="1554804029057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/HRMS_$todoApplyPage.coverage" NAME="todoApplyPage Coverage Results" MODIFIED="1554881066995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/HRMS_$Unittests_in_test_all_py.coverage" NAME="Unittests in test_all.py Coverage Results" MODIFIED="1554882454259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/HRMS_$Unittests_in_test_all_new_py.coverage" NAME="Unittests in test_all_new.py Coverage Results" MODIFIED="1554885654584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_sign_new_py.coverage" NAME="Unittests in test_sign_new.py Coverage Results" MODIFIED="1554087876775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_sign_new1_1_py.coverage" NAME="Unittests in test_sign_new2.py Coverage Results" MODIFIED="1554089406220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/HRMS$Unittests_in_test_leave_py.coverage" NAME="Unittests in test_leave.py Coverage Results" MODIFIED="1554018132935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -196,30 +203,30 @@
     <session id="851968930">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.15" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="1965" />
+          <entry key="py" value="2799" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1965" />
+          <entry key="Python" value="2799" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="6" />
+          <entry key="Python" value="12" />
         </counts>
       </usages-collector>
     </session>
@@ -229,45 +236,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todoApplyPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="517">
-              <caret line="279" column="20" selection-start-line="279" selection-start-column="20" selection-end-line="279" selection-end-column="20" />
+            <state relative-caret-position="380">
+              <caret line="182" column="41" lean-forward="true" selection-start-line="182" selection-start-column="8" selection-end-line="182" selection-end-column="41" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1554803891400" expanded="true" signature="3131:3138" ph="..." />
-                <marker date="1554803891400" expanded="true" signature="7652:7790" ph="..." />
-                <marker date="1554803891400" expanded="true" signature="8938:8944" ph="..." />
-                <marker date="1554803891400" expanded="true" signature="10123:10184" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/test_all.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1015">
-              <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1554893330826" expanded="true" signature="2773:3135" ph="..." />
+                <marker date="1554893330826" expanded="true" signature="3130:3135" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/old2/test_dismission_new2.py">
+        <entry file="file://$PROJECT_DIR$/basePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="68" column="57" lean-forward="true" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
+            <state relative-caret-position="532">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/old2/test_dismissionCheckout_new2.py">
+        <entry file="file://$PROJECT_DIR$/testCase/test_all_new2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="745">
-              <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+            <state relative-caret-position="557">
+              <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/old1/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <marker date="1554877324844" expanded="true" signature="18:25" ph="..." />
+                <marker date="1554877324844" expanded="true" signature="147:149" ph="..." />
+                <marker date="1554877324844" expanded="true" signature="147:152" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -284,6 +291,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>thi_processer_name</find>
+      <find>ddt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -296,7 +304,6 @@
         <option value="$PROJECT_DIR$/testPage.py" />
         <option value="$PROJECT_DIR$/testSign.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/basePage.py" />
         <option value="$PROJECT_DIR$/test_overtime.py" />
         <option value="$PROJECT_DIR$/test_sign.py" />
         <option value="$PROJECT_DIR$/test_business_need_plane.py" />
@@ -319,10 +326,14 @@
         <option value="$PROJECT_DIR$/testCase/test_business_new2.py" />
         <option value="$PROJECT_DIR$/testCase/test_overtime_new2.py" />
         <option value="$PROJECT_DIR$/old2/test_sign_new2.py" />
+        <option value="$PROJECT_DIR$/old1/test.py" />
         <option value="$PROJECT_DIR$/testCase/test_all.py" />
-        <option value="$PROJECT_DIR$/todoApplyPage.py" />
-        <option value="$PROJECT_DIR$/old2/test_dismission_new2.py" />
         <option value="$PROJECT_DIR$/old2/test_dismissionCheckout_new2.py" />
+        <option value="$PROJECT_DIR$/testCase/test_all_new.py" />
+        <option value="$PROJECT_DIR$/old2/test_dismission_new2.py" />
+        <option value="$PROJECT_DIR$/testCase/test_all_new2.py" />
+        <option value="$PROJECT_DIR$/todoApplyPage.py" />
+        <option value="$PROJECT_DIR$/basePage.py" />
       </list>
     </option>
   </component>
@@ -333,7 +344,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="998" />
+    <option name="x" value="711" />
+    <option name="y" value="5" />
     <option name="width" value="916" />
     <option name="height" value="1047" />
   </component>
@@ -345,12 +357,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="HRMS-" type="b2602c69:ProjectViewProjectNode" />
               <item name="HRMS-" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HRMS-" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HRMS-" type="462c0819:PsiDirectoryNode" />
+              <item name="old1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HRMS-" type="b2602c69:ProjectViewProjectNode" />
@@ -371,7 +389,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -382,19 +399,19 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\HRMS-\testCase" />
+      <recent name="E:\workspace\HRMS-\old2" />
+      <recent name="E:\workspace\HRMS" />
+      <recent name="E:\workspace\HRMS\data" />
+      <recent name="F:\pythonSoftware\workspace\HRMS" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\HRMS-\old2" />
       <recent name="E:\workspace\HRMS-\testCase" />
       <recent name="F:\pythonSoftware\HRMS\old2" />
       <recent name="E:\workspace\HRMS\testCase" />
       <recent name="E:\workspace\HRMS\testData" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\HRMS-\old2" />
-      <recent name="E:\workspace\HRMS" />
-      <recent name="E:\workspace\HRMS\data" />
-      <recent name="F:\pythonSoftware\workspace\HRMS" />
-      <recent name="C:\Users\Administrator\PycharmProjects\HRMS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -409,7 +426,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_all.py">
+  <component name="RunManager" selected="Python tests.Unittests in test_all_new2.py">
     <configuration name="todoApplyPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HRMS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -432,6 +449,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_all_new.TestAll" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HRMS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_all_new.TestAll&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in E:/workspace/HRMS-/test_busin.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <module name="HRMS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -447,6 +479,36 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in test_all_new2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HRMS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/test_all_new2.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_all_new.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="HRMS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/test_all_new.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in test_all.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="HRMS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -459,51 +521,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/test_all.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_business_new2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="HRMS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/old2/test_business_new2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_dismissionCheckout_new2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="HRMS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/old2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/old2/test_dismissionCheckout_new2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in test_dismission_new2.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="HRMS" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/old2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/old2/test_dismission_new2.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -526,19 +543,19 @@
     <list>
       <item itemvalue="Python tests.Unittests in E:/workspace/HRMS-/test_busin.py" />
       <item itemvalue="Python tests.Unittests in test_sign.py" />
-      <item itemvalue="Python tests.Unittests in test_business_new2.py" />
       <item itemvalue="Python tests.Unittests in test_all.py" />
-      <item itemvalue="Python tests.Unittests in test_dismission_new2.py" />
       <item itemvalue="Python.todoApplyPage" />
-      <item itemvalue="Python tests.Unittests in test_dismissionCheckout_new2.py" />
+      <item itemvalue="Python tests.Unittests for test_all_new.TestAll" />
+      <item itemvalue="Python tests.Unittests in test_all_new.py" />
+      <item itemvalue="Python tests.Unittests in test_all_new2.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in test_all_new2.py" />
+        <item itemvalue="Python tests.Unittests in test_all_new.py" />
+        <item itemvalue="Python tests.Unittests for test_all_new.TestAll" />
         <item itemvalue="Python tests.Unittests in test_all.py" />
-        <item itemvalue="Python tests.Unittests in test_dismissionCheckout_new2.py" />
-        <item itemvalue="Python tests.Unittests in test_dismission_new2.py" />
         <item itemvalue="Python.todoApplyPage" />
-        <item itemvalue="Python tests.Unittests in test_business_new2.py" />
       </list>
     </recent_temporary>
   </component>
@@ -556,35 +573,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_dismissionCheckout_new2_py - 2019.04.09 at 16h 51m 21s.xml">
-      <configuration name="Unittests in test_dismissionCheckout_new2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_new_py - 2019.04.10 at 16h 40m 47s.xml">
+      <configuration name="Unittests in test_all_new.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.09 at 17h 07m 41s.xml">
-      <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_new_py - 2019.04.10 at 16h 41m 03s.xml">
+      <configuration name="Unittests in test_all_new.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismissionCheckout_new2_py - 2019.04.09 at 17h 08m 35s.xml">
-      <configuration name="Unittests in test_dismissionCheckout_new2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_new2_py - 2019.04.10 at 17h 54m 13s.xml">
+      <configuration name="Unittests in test_all_new2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.09 at 17h 30m 53s.xml">
-      <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_new2_py - 2019.04.10 at 18h 05m 37s.xml">
+      <configuration name="Unittests in test_all_new2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismissionCheckout_new2_py - 2019.04.09 at 17h 31m 34s.xml">
-      <configuration name="Unittests in test_dismissionCheckout_new2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_new2_py - 2019.04.10 at 18h 06m 22s.xml">
+      <configuration name="Unittests in test_all_new2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismissionCheckout_new2_py - 2019.04.09 at 17h 32m 26s.xml">
-      <configuration name="Unittests in test_dismissionCheckout_new2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_new2_py - 2019.04.10 at 18h 07m 52s.xml">
+      <configuration name="Unittests in test_all_new2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismission_new2_py - 2019.04.09 at 17h 34m 40s.xml">
-      <configuration name="Unittests in test_dismission_new2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_new2_py - 2019.04.10 at 18h 43m 00s.xml">
+      <configuration name="Unittests in test_all_new2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_dismissionCheckout_new2_py - 2019.04.09 at 17h 35m 38s.xml">
-      <configuration name="Unittests in test_dismissionCheckout_new2.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_new2_py - 2019.04.10 at 18h 45m 51s.xml">
+      <configuration name="Unittests in test_all_new2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_all_py - 2019.04.09 at 17h 59m 35s.xml">
-      <configuration name="Unittests in test_all.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_new2_py - 2019.04.10 at 18h 46m 27s.xml">
+      <configuration name="Unittests in test_all_new2.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_all_py - 2019.04.09 at 18h 01m 47s.xml">
-      <configuration name="Unittests in test_all.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_all_new2_py - 2019.04.10 at 18h 54m 57s.xml">
+      <configuration name="Unittests in test_all_new2.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -599,12 +616,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12100213" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.122068234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21691974" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21475054" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -615,6 +632,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286334" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3262295" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -731,48 +749,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basePage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/ddt.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/old2/test_dismissionCheckout_new2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="745">
-          <caret line="75" column="28" lean-forward="true" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+        <state relative-caret-position="519">
+          <caret line="69" column="65" selection-start-line="69" selection-start-column="65" selection-end-line="69" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/todoApplyPage.py">
+    <entry file="file://$PROJECT_DIR$/old2/test_dismission_new2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="279" column="20" selection-start-line="279" selection-start-column="20" selection-end-line="279" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1554803891400" expanded="true" signature="3131:3138" ph="..." />
-            <marker date="1554803891400" expanded="true" signature="7652:7790" ph="..." />
-            <marker date="1554803891400" expanded="true" signature="8938:8944" ph="..." />
-            <marker date="1554803891400" expanded="true" signature="10123:10184" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/test_all.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1015">
-          <caret line="128" lean-forward="true" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="1501">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/old2/test_dismission_new2.py">
+    <entry file="file://$PROJECT_DIR$/testCase/test_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="68" column="57" lean-forward="true" selection-start-line="68" selection-start-column="57" selection-end-line="68" selection-end-column="57" />
+        <state relative-caret-position="418">
+          <caret line="25" column="54" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/test_all_new.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="33" column="8" lean-forward="true" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/old1/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <marker date="1554877324844" expanded="true" signature="18:25" ph="..." />
+            <marker date="1554877324844" expanded="true" signature="147:149" ph="..." />
+            <marker date="1554877324844" expanded="true" signature="147:152" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/todoApplyPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="182" column="41" lean-forward="true" selection-start-line="182" selection-start-column="8" selection-end-line="182" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1554893330826" expanded="true" signature="2773:3135" ph="..." />
+            <marker date="1554893330826" expanded="true" signature="3130:3135" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/test_all_new2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="150" lean-forward="true" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
         </state>
       </provider>
     </entry>

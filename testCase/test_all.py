@@ -102,8 +102,8 @@ class TestAll(unittest.TestCase):
                 flag += 1
                 sleep(1)
             else:
-                apply_test.process()
                 print("审批人" + str(n) + "：", username[n], name[n])
+                apply_test.process()
                 result = apply_test.is_need_next_process(name[n+1])
                 self.assertTrue(result != -1, "测试不通过")
                 if result:

@@ -15,14 +15,12 @@ class TodoApplyPage(BasePage):
     # 申请元素
     apply_btn = (By.XPATH, '//*[@id="app"]/div/div[1]/nav/div[1]/div')
 
-
     # 请假流程元素
     leave_btn = (By.XPATH, '//img[@title="请假"]')
     start_time = (By.XPATH, '//input[@placeholder="开始时间"]')
     end_time = (By.XPATH, '//input[@placeholder="结束时间"]')
     leave_reason = (By.XPATH, '//textarea[@placeholder="请输入请假原因"]')
     leave_commit = (By.XPATH, '//button/span[text()="提 交 "]')
-
 
     # 加班流程元素,开始时间,结束时间跟请假流程元素一样
     overtime_btn = (By.XPATH, '//img[@title="加班"]')
@@ -47,13 +45,6 @@ class TodoApplyPage(BasePage):
     upload_business_file = (By.XPATH, '//*[@id="app"]/div/div[2]/div/div/div/div[3]/form/div[4]/div/div[1]/div[1]/input')
     business_commit = (By.XPATH, '//button/span[text()="提 交 "]')
 
-    # 转正流程元素
-    full_btn = (By.XPATH, '//img[@title="转正"]')
-    work_content = (By.XPATH, '//textarea[@placeholder="请描述在职期间主要工作内容"]')
-    change_content = (By.XPATH, '//textarea[@placeholder="请描述日常工作中存在的不足及改善措施"]')
-    target_content = (By.XPATH, '//textarea[@placeholder="个人希望在公司的发展趋势及工作目标"]')
-    full_commit = (By.XPATH, '//button/span[text()="提交"]')
-
     # 离职流程元素
     dismission_btn = (By.XPATH, '//img[@title="离职"]')
     company_reason = (By.XPATH, '//div[@class="dimission-panel__reason"]/div[2]/div[2]/div[4]')
@@ -68,6 +59,12 @@ class TodoApplyPage(BasePage):
     dismissionCheckout_commit = (By.XPATH, '//button/span[text()="提交 "]')
     real_time = (By.XPATH, '//input[@placeholder="实际离职时间"]')
 
+    # 转正流程元素
+    full_btn = (By.XPATH, '//img[@title="转正"]')
+    work_content = (By.XPATH, '//textarea[@placeholder="请描述在职期间主要工作内容"]')
+    change_content = (By.XPATH, '//textarea[@placeholder="请描述日常工作中存在的不足及改善措施"]')
+    target_content = (By.XPATH, '//textarea[@placeholder="个人希望在公司的发展趋势及工作目标"]')
+    full_commit = (By.XPATH, '//button/span[text()="提交"]')
 
     # 处理流程元素
     process_btn = (By.XPATH, '//table/tbody/tr[1]/td[6]/div/span')
@@ -181,6 +178,15 @@ class TodoApplyPage(BasePage):
         self.find_element(*self.work_handover).send_keys(reason)
         self.find_element(*self.dismissionCheckout_commit).click()
 
+    # 申请转正流程
+    def apply_full(self, content1, content2, content3):
+        self.find_element(*self.apply_btn).click()
+        self.find_element(*self.full_btn).click()
+        self.find_element(*self.work_content).send_keys(content1)
+        self.find_element(*self.change_content).send_keys(content2)
+        self.find_element(*self.target_content).send_keys(content3)
+        self.find_element(*self.full_commit).click()
+
     # 选择下一个审核人流程
     def next_processer(self, name):
         # 定位审核人userid所在的元素input的祖父元素labek
@@ -189,9 +195,8 @@ class TodoApplyPage(BasePage):
         # 通过文本内容定位,选择下一任审批人
         nextPath = '//span[text()=\'' + str(name) + '\']'
         processer = (By.XPATH, nextPath)
-        # self.find_element(processer).click()
-        processer_ele = WebDriverWait(self.driver, 20, 0.5).until(EC.presence_of_element_located(processer))
-        processer_ele.click()
+        sleep(1)
+        self.find_element(*processer).click()
         sleep(1)
         self.find_element(*self.ok_btn).click()
 
@@ -235,6 +240,7 @@ class TodoApplyPage(BasePage):
             pass
         else:
             real_time.send_keys(dismission_time)
+            sleep(1)
         process_before_url = self.driver.current_url
         print("审核时url:%s"%process_before_url)
         self.find_element(*self.agree_btn).click()
@@ -254,27 +260,6 @@ class TodoApplyPage(BasePage):
             return True
         except:
             return False
-
-    # # 针对请假/加班/签卡/出差判断是否需要下一审批（是否有下一审批选择界面）
-    # def is_need_next_process(self, processer_name=''):
-    #     if self.is_next_processer_exist():
-    #         if processer_name:
-    #             try:
-    #                 self.next_processer(processer_name)
-    #             except:
-    #                 print("Failed：审批人"+processer_name+"找不到")
-    #                 return -1
-    #             self.logout()
-    #             sleep(1)
-    #         else:
-    #             print("Failed：缺少下一审批人的数据")
-    #             return -1
-    #     elif processer_name:
-    #         print("Warning：存在审批人"+processer_name+"数据冗余")
-    #         return -1
-    #     else:
-    #         print("Passed：审批流程结束")
-    #         return 1
 
     # 针对离职流程判断是否需要下一审批
     def is_need_next_process(self, processer_name=''):

@@ -15,7 +15,16 @@ class BasePage():
         #     print(cookie)
 
 
+    # def find_element(self, *loc):
+    #     return WebDriverWait(self.driver, 6, 0.5).until(
+    #         EC.presence_of_element_located(loc)
+    #     )
+    #
     def find_element(self, *loc):
-        return WebDriverWait(self.driver, 6, 0.5).until(
-            EC.presence_of_element_located(loc)
-        )
+        try:
+            ele = WebDriverWait(self.driver, 6, 0.5).until(EC.presence_of_element_located(loc))
+        except:
+            print("找不到该元素："+loc)
+            return -1
+        else:
+            return ele
