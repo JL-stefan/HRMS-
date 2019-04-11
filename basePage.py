@@ -1,5 +1,6 @@
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+import os
 
 class BasePage():
 
@@ -24,7 +25,7 @@ class BasePage():
         try:
             ele = WebDriverWait(self.driver, 6, 0.5).until(EC.presence_of_element_located(loc))
         except:
-            print("找不到该元素："+loc)
-            return -1
+            print("找不到该元素："+str(loc))
+            pass
         else:
             return ele

@@ -155,7 +155,8 @@ class TodoApplyPage(BasePage):
         self.find_element(*self.need_plane).click()
         self.move_to_foot()
         self.find_element(*self.business_reason).send_keys(reason)
-        file_path = os.path.join(os.path.dirname(os.getcwd()), 'testData\\《晓教育集团集中订购信息收集表》.xlsx')
+        file_path = os.path.join(os.getcwd(), '《晓教育集团集中订购信息收集表》.xlsx')
+        # file_path = "《晓教育集团集中订购信息收集表》.xlsx"
         self.find_element(*self.upload_business_file).send_keys(file_path)
         # print(file_path)
         sleep(2)
