@@ -30,8 +30,8 @@ def get_test_data(path, sheetname):
     else:
         return 0
 
-# path = os.path.join(os.path.dirname(os.getcwd()),"testData\\HRMS.xlsx")
-path = "HRMS.xlsx"
+path = os.path.join(os.path.dirname(os.getcwd()),"testData\\HRMS.xlsx")
+# path = "HRMS.xlsx"
 while 1:
     print("1 请假")
     print("2 加班")
