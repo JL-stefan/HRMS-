@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48c9fca6-bea3-4a12-b558-b376a33d97a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/basePage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/test_all.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/test_all_new.spec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testCase/test_all_new2.py" beforeDir="false" afterPath="$PROJECT_DIR$/testCase/TestAll.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testData/test_all_new.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testData/《晓教育集团集中订购信息收集表》.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testData/《晓教育集团集中订购信息收集表》.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testResult/result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todoApplyPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/todoApplyPage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HRMS/.idea/HRMS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS/.idea/HRMS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HRMS/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HRMS/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HRMS/.idea/workspace.xml" afterDir="false" />
@@ -246,7 +237,7 @@
         <entry file="file://$PROJECT_DIR$/todoApplyPage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+              <caret line="163" selection-start-line="163" selection-end-line="163" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <marker date="1554972998023" expanded="true" signature="2773:3135" ph="..." />
@@ -332,7 +323,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="861" />
     <option name="y" value="66" />
     <option name="width" value="916" />
@@ -583,15 +574,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12313433" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14552239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21475054" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21475054" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -807,7 +797,7 @@
     <entry file="file://$PROJECT_DIR$/todoApplyPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="163" lean-forward="true" selection-start-line="163" selection-end-line="163" />
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
             <marker date="1554972998023" expanded="true" signature="2773:3135" ph="..." />
